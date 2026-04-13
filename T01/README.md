@@ -98,3 +98,5 @@ Justificació: Totes les propostes s'han basat en les tarifes i necessitats actu
 ### Consells per al diagrama:
 1.  Si utilitzes **Visual Studio Code**, instal·la l'extensió "PlantUML" per veure el gràfic.
 2.  Pots copiar el codi que hi ha dins del bloc `@startuml ... @enduml` i enganxar-lo a [PlantText.com](https://www.planttext.com/) per generar la imatge i descarregar-la si vols adjuntar-la com a fitxer `.png`.
+
+[solucio](solucio.md)
