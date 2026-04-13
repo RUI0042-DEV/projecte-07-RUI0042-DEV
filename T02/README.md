@@ -36,3 +36,5 @@ Per al correcte funcionament i desplegament, el projecte segueix els següents e
 * **Anàlisi breu:** (Explica aquí què mostren les teves mètriques)
 
 ---
+
+[Solució](solucio.md)
