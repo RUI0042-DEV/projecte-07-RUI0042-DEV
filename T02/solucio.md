@@ -45,6 +45,8 @@ S'ha integrat el comptador invisible de Statcounter just abans del tancament de 
 
 ---
 
-## 5. Workflow i Versionat — 1 punt
+## 5. Workflow i Versionat
 
 El desenvolupament s'ha fet seguint una estratègia de **treball local primer, publicació després**. S'han anat fent commits regulars al llarg del procés amb missatges descriptius.
+
+![alt text](<pics/Captura de pantalla 2026-04-13 204439.png>)
