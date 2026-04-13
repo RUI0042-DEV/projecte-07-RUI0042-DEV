@@ -59,4 +59,4 @@ Actualment la nostra empresa és recent i petita (equip base de 4 persones). Per
 | Comercial / Gestió de projecte | 1 | Si | Seguiment pressupost i cronograma |
 | Dissenyador/gràfic (web \+ vídeo LOPD) | 1(extern) | No (subcontractar) | Només per Àrees 3 i 4 |
 
-**Conclusió**: Amb l’equip actual som suficients per la fase d’implantació. Per al manteniment recurrent sí que caldrà contractar **1 tècnic addicional a mitja jornada** (o subcontractar hores) per garantir resposta 24/7 sense cremar l’equip.L).
+**Conclusió**: Amb l’equip actual som suficients per la fase d’implantació. Per al manteniment recurrent sí que caldrà contractar **1 tècnic addicional a mitja jornada** (o subcontractar hores) per garantir resposta 24/7 sense cremar l’equip.L.
