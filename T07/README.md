@@ -51,5 +51,5 @@ L'avaluació s'ha centrat en els següents punts crítics:
 
 ---
 
-[Solució](solucio.md)
-[Presentació](Presentació_T07.pptx)
+- [Solució](solucio.md)
+- [Presentació](Presentació_T07.pptx)
