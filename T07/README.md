@@ -50,3 +50,5 @@ L'avaluació s'ha centrat en els següents punts crítics:
 * **Full de càlcul de costos:** [Enllaç o referència al fitxer]
 
 ---
+
+[Solució](solucio.md)
