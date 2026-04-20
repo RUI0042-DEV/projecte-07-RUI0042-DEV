@@ -2,7 +2,7 @@
 
 ## 1. Desplegament (GitHub Pages)
 
-La web s'ha publicat correctament a GitHub Pages i és accessible sota una URL pública del tipus `https://github.com/RUI0042-DEV/web-corporativa`. La pàgina és totalment operativa i inclou totes les seccions demanades: **Inici, Serveis, Sobre nosaltres i Contacte**, amb el formulari de contacte amb tots els camps obligatoris (nom, correu, telèfon i missatge). El disseny és responsiu i funciona correctament tant en escriptori com en dispositius mòbils.
+La web s'ha publicat correctament a GitHub Pages i és accessible sota una URL pública del tipus [https://github.com/RUI0042-DEV/web-corporativa]. La pàgina és totalment operativa i inclou totes les seccions demanades: **Inici, Serveis, Sobre nosaltres i Contacte**, amb el formulari de contacte amb tots els camps obligatoris (nom, correu, telèfon i missatge). El disseny és responsiu i funciona correctament tant en escriptori com en dispositius mòbils.
 
 ---
 
