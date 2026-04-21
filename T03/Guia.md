@@ -381,5 +381,4 @@ S’ha aconseguit implementar una infraestructura de fitxers **segura, organitza
 
 ---
 
-**Document tècnic finalitzat.**  
-Pots copiar aquest Markdown directament; totes les teves captures de pantalla romanen exactament al seu lloc. Si necessites modificar cap detall addicional, indica’m-ho.
+[Tornar enrere](README.md)
