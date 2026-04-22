@@ -52,7 +52,7 @@ foodlogistic.test
 |---------|-----------|----------|----------------|-------------------|---------------------------|--------------|
 | **Public** | `C:\Public` | `\\FL11\Public` | Tothom (Everyone) | Explorador de fitxers | **Lectura** | Sense ABE |
 | **Operacions** | `C:\Operacions` | `\\FL11\Operacions` | `Transport` | Server Manager (FSSM) | **Modificació** + ABE | Només visible per Transport |
-| **Direccio** | `C:\Direccio` | `\\FL11\Direccio` | `Direccio` | **PowerShell Avançat (Opció D)** | **Control Total** + ABE | Unitat **Z:** via GPO |
+| **Direccio** | `C:\Direccio` | `\\FL11\Direccio` | `Direccio` | **PowerShell Avançat (Opció D)** | **Control Total** + ABE | Unitat **C:** via GPO |
 
 **Servidor:** FL11.foodlogistic.test (Windows Server 2022)
 
@@ -139,7 +139,7 @@ El Server Manager ofereix una interfície més professional i completa que l’E
 7. A la pantalla **Permissions**, eliminem els permisos per defecte i afegim **només** el grup `Transport` amb permisos de **Modificació** (Modify).
    - També assegurem que **Administradors** mantingui **Control total**.
 
-   ![Permisos del share Operacions](pics/image4.png)
+   ![Permisos del share Operacions](<pics/Captura de pantalla 2026-04-22 171521.png>)
 
 8. Revisem el resum i cliquem **Create**.
 
@@ -343,11 +343,15 @@ Per verificar que tota la infraestructura funciona correctament, hem realitzat l
 
 ### 5.1 Verificació d’accés i visibilitat per perfil d’usuari
 
-| Tipus d’usuari | Carpetes visibles | Unitat Z: | Pot escriure? |
+| Tipus d’usuari | Carpetes visibles | Unitat C: | Pot escriure? |
 |----------------|-------------------|-----------|---------------|
 | **Transport** | Veu `Public` i `Operacions` | No apareix | Sí a `Operacions`, només lectura a `Public` |
-| **Direccio** | Veu `Public`, `Operacions` i `Direccio` | Sí (Z:) | Sí a `Direccio`, lectura a `Public` |
+| **Direccio** | Veu `Public`, `Operacions` i `Direccio` | Sí (C:) | Sí a `Direccio`, lectura a `Public` |
 | **Administracio** | Veu `Public` i `Operacions` (no veu `Direccio` per ABE) | No apareix | Només lectura a `Public` |
+
+- ![alt text](<pics/Captura de pantalla 2026-04-21 172123.png>)
+- ![alt text](<pics/Captura de pantalla 2026-04-21 191136.png>)
+- ![alt text](<pics/Captura de pantalla 2026-04-21 191146.png>)
 
 > **Observació:** La carpeta `Direccio` no apareix als usuaris que no en formen part gràcies a l’**ABE** configurat tant al Server Manager com a PowerShell.
 
@@ -357,12 +361,19 @@ Per verificar que tota la infraestructura funciona correctament, hem realitzat l
 - **Intent 2:** Renombrar `notepad.exe` a `notepad.txt` i copiar-lo → **Continua bloquejat**.  
   Això demostra que el filtratge actiu no es deixa enganyar pel canvi d’extensió.
 
+
+![alt text](pics/image5.png)
+![alt text](pics/image6.png)
+
 ### 5.3 Prova de quota (Public)
 
 - Omplim la carpeta `Public` fins a 180 MB (90% de 200 MB).
 - Resultat: Apareix l’avís personalitzat configurat al FSRM.
 - Intentem superar els 200 MB: el sistema denega l’escriptura amb error d’**espai insuficient** (comportament de *Hard Quota*).
 
+![alt text](pics/image7.png)
+
+![alt text](pics/image8.png)
 ---
 
 ## 6. Conclusions i Millores Aplicades
