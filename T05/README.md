@@ -38,7 +38,7 @@ Dins de la campanya interna **"Dades Segures, Logística Eficient"**, s'ha encar
 * **Guió Vídeo 2:** [Enllaç al document/fitxer](https://docs.google.com/document/d/1cGY6t0hcp6QMd-Mp4g-XuCUFNhX3Bbve02id2-k-p1I/edit?usp=sharing)
 * **Fonts consultades:**
     * [Agència Espanyola de Protecció de Dades (AEPD)](https://www.aepd.es)
-    * [Enllaç específic a recurs consultat]
+    * [Enllaç específic a recurs consultat](https://www.ciudadano2cero.com/pagina-web-rgpd-proteccion-datos/)
 
 ### 🎬 Vídeos Finalitzats
 * **Vídeo 1 (General):** [Enllaç a YouTube/Drive/Vids](https://drive.google.com/drive/folders/1OEU4mowXdjlYpPo2BEcJnt51gG51W0iz?usp=sharing)
