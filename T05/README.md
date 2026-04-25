@@ -41,7 +41,7 @@ Dins de la campanya interna **"Dades Segures, Logística Eficient"**, s'ha encar
     * [Enllaç específic a recurs consultat]
 
 ### 🎬 Vídeos Finalitzats
-* **Vídeo 1 (General):** [Enllaç a YouTube/Drive/Vids]
-* **Vídeo 2 (RRHH):** [Enllaç a YouTube/Drive/Vids]
+* **Vídeo 1 (General):** [Enllaç a YouTube/Drive/Vids](https://drive.google.com/drive/folders/1OEU4mowXdjlYpPo2BEcJnt51gG51W0iz?usp=sharing)
+* **Vídeo 2 (RRHH):** [Enllaç a YouTube/Drive/Vids](https://drive.google.com/drive/folders/1c6WCUUK-jdGIRMOJj665RzXJDzlJuz0x?usp=sharing)
 
 ---
