@@ -34,8 +34,8 @@ Dins de la campanya interna **"Dades Segures, Logística Eficient"**, s'ha encar
 ## 🚀 Solució Realitzada
 
 ### 📄 Guions Tècnics i Recerca
-* **Guió Vídeo 1:** [Enllaç al document/fitxer]
-* **Guió Vídeo 2:** [Enllaç al document/fitxer]
+* **Guió Vídeo 1:** [Enllaç al document/fitxer](https://docs.google.com/document/d/1jnUkIDLqgZa32wxCpZbhrjmV6HBVgAS5yMdVUWoXVhc/edit?usp=sharing)
+* **Guió Vídeo 2:** [Enllaç al document/fitxer](https://docs.google.com/document/d/1cGY6t0hcp6QMd-Mp4g-XuCUFNhX3Bbve02id2-k-p1I/edit?usp=sharing)
 * **Fonts consultades:**
     * [Agència Espanyola de Protecció de Dades (AEPD)](https://www.aepd.es)
     * [Enllaç específic a recurs consultat]
