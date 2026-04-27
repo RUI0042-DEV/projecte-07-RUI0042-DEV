@@ -40,16 +40,16 @@ S'ha realitzat una estimació contemplant la comprensió, recerca, implementaci�
 | ID | Tasca | Tipus | Hores Totals | Hores Rui | Hores Daniel | Justificació de la divisió |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
 | **T01** | Competència i sector | Equip | **4 h** | **3 h** | 1 h | Rui assumeix el pes de la recerca i l'organigrama; Daniel dedica 1h a revisar el document. |
-| **T02** | Web corporativa | Indiv. | **12 h** | **6 h** | **6 h** | Tasca individual. Ambdós inverteixen 6h en dissenyar la seva pròpia web i configurar GitHub. |
-| **T03** | Servidor de fitxers | Indiv. | **16 h** | **8 h** | **8 h** | Tasca individual tècnica i feixuga. Cadascú configura el seu AD, permisos i quotes en les seves màquines. |
-| **T04** | Servidor d'impressió | Indiv. | **8 h** | **4 h** | **4 h** | Cadascú inverteix 4h en configurar el Printer Pooling i desplegar per GPO. |
+| **T02** | Web corporativa | Indiv. | **6 h** | **6 h** | **6 h** | Tasca individual. Ambdós inverteixen 6h en dissenyar la seva pròpia web i configurar GitHub. |
+| **T03** | Servidor de fitxers | Indiv. | **8 h** | **8 h** | **8 h** | Tasca individual tècnica i feixuga. Cadascú configura el seu AD, permisos i quotes en les seves màquines. |
+| **T04** | Servidor d'impressió | Indiv. | **4 h** | **4 h** | **4 h** | Cadascú inverteix 4h en configurar el Printer Pooling i desplegar per GPO. |
 | **T05** | Vídeo formatiu LOPD | Equip | **7 h** | **6 h** | 1 h | Rui lidera la gravació, edició i guions dels vídeos (6h); Daniel fa suport i validació (1h). |
 | **T06** | Escut Digital (Legal) | Indiv. | **6 h** | **3 h** | **3 h** | Ambdós apliquen les normatives a les seves webs individuals de la T02. |
 | **T07** | Migració al Cloud | Equip | **4 h** | **3 h** | 1 h | Rui assumeix la investigació i proposta del correu Cloud; Daniel inverteix 1h en revisió. |
 | **T08** | Tria web definitiva | Equip | **2 h** | **1 h** | **1 h** | Reunió conjunta obligatòria per debatre i consensuar la proposta final. |
 | **T09** | Planificació (Gantt) | Equip | **4 h** | **3 h** | 1 h | Rui lidera el disseny del Gantt en UMLTree i documentació; Daniel audita els temps. |
 | **T10** | Pressupost projecte | Equip | **4 h** | **2 h** | **2 h** | Tasca equilibrada per tancar costos d'implantació i recurrents. |
-| **T11** | Intranet WordPress | Indiv. | **10 h** | **5 h** | **5 h** | Tasca individual on cadascú desplega el seu WordPress. |
+| **T11** | Intranet WordPress | Indiv. | **5 h** | **5 h** | **5 h** | Tasca individual on cadascú desplega el seu WordPress. |
 | **T12** | TechLaunch Startup | Equip | **7 h** | **4 h** | 3 h | Rui assumeix els tràmits legals de la Llei 28/2022; Daniel ajuda activament en el Pitch. |
 | **--** | **TOTAL INDIVIDUAL**| -- | **--** | **26 h** | **26 h** | Esforç idèntic en el desenvolupament tècnic individual [6]. |
 | **--** | **TOTAL EQUIP** | -- | **--** | **19 h** | **8 h** | Desbalanceig assumit estratègicament per tasques de gestió [6]. |
