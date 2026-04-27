@@ -47,3 +47,5 @@ L'objectiu principal és garantir l'alta disponibilitat mitjançant el **Printer
 4. **Cua d'Impressió:** (Captura de la prova de càrrega de 10 documents).
 
 ---
+
+[Guia](guia.md)

@@ -28,7 +28,7 @@ Per considerar la web com a "legalment apta", s'han implementat i verificat els 
 
 ### 🔗 Enllaç al Projecte Desplegat
 Pots visitar la versió final i legalitzada de la web en el següent enllaç:
-* **URL GitHub Pages:** [Insereix aquí la teva URL de GitHub Pages]
+* **URL GitHub Pages:** [Github](https://rui0042-dev.github.io/web-corporativa/index.html)
 
 ### 🛠️ Especificacions de Disseny
 * **Consistència:** S'ha mantingut el disseny original de la T02 per preservar la identitat visual corporativa.
