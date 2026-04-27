@@ -176,16 +176,16 @@ end legend
 
 ---
 
-## 6. Respostes a les Preguntes Obligatòries de Planificació [12]
+## 6. Respostes a les Preguntes Obligatòries de Planificació 
 
 **1. Quina és la tasca més crítica del projecte i per què?**
-> La tasca més crítica és la **T02 (Web corporativa)**. És l'arrel de tot el "camí crític" del bloc front-end i pressupost. Si s'endarrereix, impossibilita aplicar-hi les capes legals LSSI/CE (T06) i bloqueja directament la dinàmica d'equip per a l'elecció de la web definitiva (T08). Com a efecte dòmino, sense web definitiva no es pot tancar el pressupost (T10) de la memòria tècnica P01 [2, 4].
+> La tasca més crítica és la **T02 (Web corporativa)**. És l'arrel de tot el "camí crític" del bloc front-end i pressupost. Si s'endarrereix, impossibilita aplicar-hi les capes legals LSSI/CE (T06) i bloqueja directament la dinàmica d'equip per a l'elecció de la web definitiva (T08). Com a efecte dòmino, sense web definitiva no es pot tancar el pressupost (T10) de la memòria tècnica P01.
 
 **2. On heu detectat el principal coll d’ampolla?**
 > A inicis de la **Setmana 3**. En aquest espai temporal convergeixen les operacions tècniques seqüencials de la web corporativa i els textos legals de protecció de dades (T06) i tot el bloc financer i administratiu (T10 i T12). 
 
 **3. Quina decisió de planificació ha estat més difícil?**
-> Prendre la decisió madura d'evitar l'equilibri artificial del 50/50 en l'assignació d'hores col·laboratives. Basant-nos en el realisme de les necessitats, hem assumit oficialment una desviació de pes de treball on l'integrant Rui assumeix 45 hores davant les 34 hores de l'integrant Daniel, per tal de blindar el projecte de temps morts [6].
+> Prendre la decisió madura d'evitar l'equilibri artificial del 50/50 en l'assignació d'hores col·laboratives. Basant-nos en el realisme de les necessitats, hem assumit oficialment una desviació de pes de treball on l'integrant Rui assumeix 45 hores davant les 34 hores de l'integrant Daniel, per tal de blindar el projecte de temps morts.
 
 **4. Heu hagut de modificar alguna estimació inicial? Per què?**
 > Sí, la càrrega de la **T05 (Vídeos formatius LOPD)** i **T03 (Servidor de fitxers)**. L'estimació inicial no preveia l'elevat cost de temps que suposa fer les comprovacions d'errors creuats en l'Active Directory al donar d'alta quotes, i el pes real d'editar material multimèdia amb locucions sobre la LOPD.
