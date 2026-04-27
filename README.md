@@ -6,9 +6,9 @@
 
 ## Autor
 
-Nom: [Escriu el teu nom aquí]
+Nom: Rui Huang
 
-Formant grups de treball: [Escriu els noms dels membres del grup aquí]
+Formant grups de treball: Rui Huang i Daniel Gallardo
 
 ## Descripció del projecte
 
