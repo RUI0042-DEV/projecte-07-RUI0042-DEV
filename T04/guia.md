@@ -271,3 +271,5 @@ Amb aquesta implementació, l'empresa disposa d'un servidor d'impressió **resil
 * **Seguretat:** Les restriccions d'horari i la gestió via Unitats Organitzatives (OU) limiten l'ús de la infraestructura estrictament a l'àmbit laboral i al personal autoritzat.
 
 > **Recomanació final:** Es suggereix documentar en un **inventari d'infraestructura** la configuració específica del pool, els noms de les GPO i les OU afectades. Això facilitarà enormement les futures auditories de sistemes i les tasques de manteniment preventiu.
+
+[Tornar enrere](README.md)
