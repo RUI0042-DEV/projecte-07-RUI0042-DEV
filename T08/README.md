@@ -49,3 +49,5 @@ El procés s'ha dut a terme mitjançant una comunicació assertiva, on hem prior
 * L'objectiu comú de l'empresa de satisfer el client.
 
 ---
+
+[solucio](solucio.md)
