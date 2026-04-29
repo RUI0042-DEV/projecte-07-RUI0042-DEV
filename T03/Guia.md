@@ -165,6 +165,8 @@ Aquest és el mètode més avançat i professional. Permet automatitzar la creac
 New-Item -Path "C:\Direccio" -ItemType Directory -Force
 ```
 
+![Verificació del share Direccio via PowerShell](<pics/Captura de pantalla 2026-04-21 161936.png>)
+
 **Paso 2: Crear el recurs compartit amb ABE activat**
 > **Atenció:** El valor correcte és `AccessBased` (amb doble 's').
 
@@ -177,6 +179,8 @@ New-SmbShare -Name "Direccio" `
              -Description "Carpeta confidencial solo para Direccion"
 ```
 
+ ![Filtre de seguretat de la GPO](<pics/Captura de pantalla 2026-04-21 161951.png>)
+
 **Paso 3: Reforçar permisos NTFS**
 ```powershell
 # Eliminar herència i netejar permisos heretats
@@ -188,6 +192,7 @@ icacls "C:\Direccio" /grant "Direccio:(OI)(CI)F"
 # Assignar Control Total als Administradors
 icacls "C:\Direccio" /grant "Administradores:(OI)(CI)F"
 ```
+![Configuració del Drive Map a la GPO](<pics/Captura de pantalla 2026-04-21 162547.png>)
 
 **Paso 4: Verificació del share creat**
 ```powershell
@@ -195,7 +200,7 @@ Get-SmbShare -Name "Direccio" | Format-List
 ```
 > Resultat esperat: `FolderEnumerationMode : AccessBased`
 
-![Verificació del share Direccio via PowerShell](<pics/Captura de pantalla 2026-04-21 161936.png>)
+
 
 #### Configuració de la GPO per mapar la unitat C:
 
@@ -206,7 +211,7 @@ Perquè els usuaris de Direcció tinguin la carpeta accessible automàticament c
 3. L’enllacem a l’OU `Usuaris\Direccio`.
 4. Al filtre de seguretat, eliminem **Authenticated Users** i afegim **només** el grup `Direccio`.
 
-   ![Filtre de seguretat de la GPO](<pics/Captura de pantalla 2026-04-21 161951.png>)
+  
 
 5. Editem la GPO i anem a:
    ```
@@ -220,14 +225,15 @@ Perquè els usuaris de Direcció tinguin la carpeta accessible automàticament c
    - **Drive Letter:** C:
    - **Hide/Show this drive:** Show this drive
 
-   ![Configuració del Drive Map a la GPO](<pics/Captura de pantalla 2026-04-21 162547.png>)
+   
 
+  ![Resultat de la GPO aplicada al client](<pics/Captura de pantalla 2026-04-21 163107.png>)
 7. Tanquem l’editor i forcem l’actualització de la política als clients amb:
    ```cmd
    gpupdate /force
    ```
 
-   ![Resultat de la GPO aplicada al client](<pics/Captura de pantalla 2026-04-21 163107.png>)
+ 
 
 ---
 
