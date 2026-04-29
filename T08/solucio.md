@@ -80,3 +80,7 @@ Durant la reunió, s'ha seguit una dinàmica de comunicació assertiva on cada s
 ### Justificació de la tria
 
 Aquesta decisió es justifica pel fet que FoodLogístic S.A. és una empresa que opera a escala europea. Necessita una web que visualment sigui impactant (Daniel), però que alhora expliqui solucions tecnològiques complexes i compleixi estrictament amb la LOPDGDD (Rui). La fusió elimina els punts febles individuals i crea una eina de vendes molt més potent.
+
+---
+
+[Tornar enrere](README.md)
