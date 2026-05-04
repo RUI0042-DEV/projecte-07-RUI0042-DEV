@@ -1,58 +1,69 @@
 @startgantt
-language ca
-Project starts 2026-04-07
-saturday are closed
-sunday are closed
-2026-04-30 is closed
-2026-05-01 is closed
-
+Language ca
+Project starts 2026-04-06
 printscale daily zoom 1.5
-title Diagrama de Gantt - Projecte FoodLogístics S.A.
+header Diagrama de Gantt - Projecte FoodLogístics S.A.
 footer Planificació i Assignació de Recursos (T09) - Rui i Daniel
 
 <style>
 ganttDiagram {
   task {
-    FontName Arial
-    FontSize 12
-  }
-  .equip {
-    BackGroundColor #DDEBF7
-    LineColor #2E75B6
-  }
-  .indiv {
-    BackGroundColor #FCE4D6
-    LineColor #C55A11
+    .equip {
+      BackgroundColor #DDEBF7
+      LineColor #2E75B6
+    }
+    .indiv {
+      BackgroundColor #FCE4D6
+      LineColor #C55A11
+    }
   }
   milestone {
-    BackGroundColor #FFF2CC
+    BackgroundColor #FFF2CC
     LineColor #D6A600
     FontStyle bold
   }
 }
 </style>
 
--- Setmana 1 i 2 (Recerca, Infraestructura i Web Base) --
-[T01 Competència i sector (4h)] <<equip>> on {Rui} {Daniel} starts 2026-04-07 and ends 2026-04-10
-[T02 Web corporativa (6h)] <<indiv>> on {Rui} {Daniel} starts 2026-04-07 and ends 2026-04-09
-[T12 TechLaunch Startup (7h)] <<equip>> on {Rui} {Daniel} starts 2026-04-07 and ends 2026-04-28
-[T03 Servidor de fitxers (8h)] <<indiv>> on {Rui} {Daniel} starts 2026-04-08 and ends 2026-04-21
-[T07 Migració al Cloud (4h)] <<equip>> on {Rui} starts 2026-04-09 and ends 2026-04-16
-[T05 Vídeo formatiu LOPD (7h)] <<equip>> on {Rui} starts 2026-04-13 and ends 2026-04-15
-
--- Setmana 3 i 4 (Escut Legal, Impressió, Intranet i Tancament) --
-[T06 Escut Digital LOPD (3h)] <<indiv>> on {Rui} {Daniel} starts 2026-04-20 and ends 2026-04-22
-[T04 Servidor d'impressió (4h)] <<indiv>> on {Rui} {Daniel} starts 2026-04-22 and ends 2026-04-29
-[T08 Tria web definitiva (2h)] <<equip>> on {Rui} {Daniel} starts 2026-04-23 and ends 2026-04-23
-[T11 Intranet WordPress (5h)] <<indiv>> on {Rui} {Daniel} starts 2026-04-23 and ends 2026-04-29
-[T10 Pressupost projecte (4h)] <<equip>> on {Rui} {Daniel} starts 2026-04-24 and ends 2026-04-28
-[T09 Planificació Gantt (4h)] <<equip>> on {Rui} {Daniel} starts 2026-04-24 and ends 2026-05-04
-
-[Lliurament Memòria P01 i Web P02] happens at 2026-05-04
-
 legend right
-| Color | Tipus de Tasca |
-| <#DDEBF7> | En Equip |
-| <#FCE4D6> | Individual |
+  | Color | Tipus |
+  | <#DDEBF7> | En Equip (blau clar) |
+  | <#FCE4D6> | Individual (taronja) |
 end legend
+
+-- Setmana 1: Recerca, Infraestructura i Web Base --
+[T01 Competència i sector (4h)] <<equip>> on {Rui} {Daniel} lasts 2 days
+[T02 Web corporativa (12h)] <<indiv>> on {Rui} {Daniel} lasts 4 days
+[T03 Servidor de fitxers (16h)] <<indiv>> on {Rui} {Daniel} lasts 5 days
+
+[T07 Migració al Cloud (4h)] <<equip>> on {Rui} lasts 2 days
+[T07 Migració al Cloud (4h)] starts at [T01 Competència i sector (4h)]'s end
+
+-- Setmana 2: Escut Legal, Impressió i Audiovisuals --
+[T04 Servidor d'impressió (8h)] <<indiv>> on {Rui} {Daniel} lasts 3 days
+[T04 Servidor d'impressió (8h)] starts at [T03 Servidor de fitxers (16h)]'s end
+
+[T05 Vídeo formatiu LOPD (7h)] <<equip>> on {Rui} lasts 3 days
+[T05 Vídeo formatiu LOPD (7h)] starts at [T07 Migració al Cloud (4h)]'s end
+
+-- Setmana 3: Web Legal, Pressupost, Startup i Tancament --
+[T06 Escut Digital LOPD (6h)] <<indiv>> on {Rui} {Daniel} lasts 2 days
+[T06 Escut Digital LOPD (6h)] starts 2026-04-20
+
+[T08 Tria web definitiva (2h)] <<equip>> on {Rui} {Daniel} lasts 1 days
+[T08 Tria web definitiva (2h)] starts at [T06 Escut Digital LOPD (6h)]'s end
+
+[T10 Pressupost projecte (4h)] <<equip>> on {Rui} {Daniel} lasts 2 days
+[T10 Pressupost projecte (4h)] starts at [T08 Tria web definitiva (2h)]'s end
+
+[T11 Intranet WordPress (10h)] <<indiv>> on {Rui} {Daniel} lasts 3 days
+[T11 Intranet WordPress (10h)] starts at [T10 Pressupost projecte (4h)]'s end
+
+[T12 TechLaunch Startup (7h)] <<equip>> on {Rui} {Daniel} lasts 3 days
+[T12 TechLaunch Startup (7h)] starts at [T10 Pressupost projecte (4h)]'s end
+
+[T09 Planificació Gantt (4h)] <<equip>> on {Rui} {Daniel} lasts 2 days
+[T09 Planificació Gantt (4h)] starts at [T12 TechLaunch Startup (7h)]'s end
+
+[Lliurament Memòria P01 i Web P02] happens at [T09 Planificació Gantt (4h)]'s end
 @endgantt

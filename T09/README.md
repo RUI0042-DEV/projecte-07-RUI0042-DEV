@@ -52,8 +52,8 @@ S'ha realitzat una estimació contemplant la comprensió, recerca, implementaci�
 | **T10** | Pressupost projecte | Equip | **4 h** | **2 h** | **2 h** | Tasca equilibrada per tancar costos d'implantació i recurrents . |
 | **T11** | Intranet WordPress | Indiv. | **5 h** | **5 h** | **5 h** | Tasca individual on cadascú desplega el seu WordPress . |
 | **T12** | TechLaunch Startup | Equip | **7 h** | **4 h** | 3 h | Rui assumeix els tràmits legals de la Llei 28/2022; Daniel ajuda activament en el Pitch . |
-| **--** | **TOTAL INDIVIDUAL**| -- | **--** | **26 h** | **26 h** | Esforç idèntic en el desenvolupament tècnic individual [5]. |
-| **--** | **TOTAL EQUIP** | -- | **--** | **19 h** | **8 h** | Desbalanceig assumit estratègicament per tasques de gestió [5]. |
+| **--** | **TOTAL INDIVIDUAL**| -- | **--** | **26 h** | **26 h** | Esforç idèntic en el desenvolupament tècnic individual . |
+| **--** | **TOTAL EQUIP** | -- | **--** | **19 h** | **8 h** | Desbalanceig assumit estratègicament per tasques de gestió . |
 | **--** | **GRAN TOTAL** | **--** | **--** | **45 h** | **34 h** | **Total per persona al llarg de les 4 setmanes de projecte** . |
 
 ### Justificació de l'anàlisi de càrregues
@@ -67,18 +67,18 @@ Com es pot observar, en les tasques tècniques individuals (T02, T03, T04, T06 i
 
 | ID | Tasca (Tarea) | Rui | Daniel | Justificació dels rols |
 | :--- | :--- | :---: | :---: | :--- |
-| **T01** | Competència i sector | **R** | A | Rui investiga i elabora el document (3h); Daniel el valida (1h) [7]. |
-| **T02** | Web corporativa | **R** | **R** | Tasca individual: tots dos maqueten la seva pròpia versió en paral·lel [7]. |
-| **T03** | Servidor de fitxers | **R** | **R** | Tasca individual: execució tècnica autònoma d'AD i quotes FSRM [7]. |
-| **T04** | Servidor d'impressió | **R** | **R** | Tasca individual: configuració autònoma de PDF24 i GPOs [7]. |
-| **T05** | Vídeo formatiu LOPD | **R** | C | Rui assumeix el gran pes del muntatge audiovisual (6h); Daniel aconsella i avalua (1h) [7]. |
-| **T06** | Escut Digital (Legal) | **R** | **R** | Tasca individual: aplicació de banners i cookies a les webs de la T02 [7]. |
-| **T07** | Migració al Cloud | **R** | A | Rui elabora l'estudi de mercat; Daniel aprova tècnicament la solució [7]. |
-| **T08** | Tria web definitiva | **R** | **R** | Colideratge: debat i negociació conjunta exigida [7]. |
-| **T09** | Planificació (Gantt) | **R** | A | Rui dissenya el Markdown i el PlantUML; Daniel audita calendaris [7]. |
-| **T10** | Pressupost projecte | **R** | **R** | Treball col·laboratiu en el càlcul financer de la implantació [7]. |
-| **T11** | Intranet WordPress | **R** | **R** | Tasca individual: instal·lació i documentació pròpia [7]. |
-| **T12** | TechLaunch Startup | **R** | **R** | Execució en equip per als tràmits i gravació de la presentació oral [7]. |
+| **T01** | Competència i sector | **R** | A | Rui investiga i elabora el document (3h); Daniel el valida (1h) . |
+| **T02** | Web corporativa | **R** | **R** | Tasca individual: tots dos maqueten la seva pròpia versió en paral·lel . |
+| **T03** | Servidor de fitxers | **R** | **R** | Tasca individual: execució tècnica autònoma d'AD i quotes FSRM . |
+| **T04** | Servidor d'impressió | **R** | **R** | Tasca individual: configuració autònoma de PDF24 i GPOs . |
+| **T05** | Vídeo formatiu LOPD | **R** | C | Rui assumeix el gran pes del muntatge audiovisual (6h); Daniel aconsella i avalua (1h) . |
+| **T06** | Escut Digital (Legal) | **R** | **R** | Tasca individual: aplicació de banners i cookies a les webs de la T02 . |
+| **T07** | Migració al Cloud | **R** | A | Rui elabora l'estudi de mercat; Daniel aprova tècnicament la solució . |
+| **T08** | Tria web definitiva | **R** | **R** | Colideratge: debat i negociació conjunta exigida . |
+| **T09** | Planificació (Gantt) | **R** | A | Rui dissenya el Markdown i el PlantUML; Daniel audita calendaris . |
+| **T10** | Pressupost projecte | **R** | **R** | Treball col·laboratiu en el càlcul financer de la implantació . |
+| **T11** | Intranet WordPress | **R** | **R** | Tasca individual: instal·lació i documentació pròpia . |
+| **T12** | TechLaunch Startup | **R** | **R** | Execució en equip per als tràmits i gravació de la presentació oral . |
 
 ---
 
