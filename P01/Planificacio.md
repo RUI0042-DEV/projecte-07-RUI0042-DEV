@@ -113,6 +113,7 @@ Captura 1: Portada i Hero (Impacte B2B) ![Hero de la Web](pics/image.png)
 Captura 2: Formulari i compliment LOPD ![Formulari amb Checkbox](pics/image1.png)
 Captura 3: Servei Plataforma FL360° ![Serveis FL360](pics/image2.png)
 
+[Enllaç web](https://classessmx2n.github.io/web-projecte7-RUI0042-DEV/index.html)
 
 ## 6. Pressupost
 
